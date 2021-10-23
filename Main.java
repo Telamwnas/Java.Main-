@@ -1,4 +1,4 @@
-mport java.util.Scanner;
+import java.util.Scanner;
 public class Main{
    public static void main(String[] args) {
       //ΔΙΛΩΣΗ ΜΕΤΑΒΛΗΤΩΝ 
@@ -29,6 +29,6 @@ public class Main{
       }
       //ΠΡΑΞΕΙΣ ΤΟΝ ΑΡΙΘΜΟΝ
       System.out.print("\nΤΟ ΑΠΟΤΕΣΜΑΣ ΕΙΝΑΙ :\n");
-      System.out.printf(num1 + " " + op + " " + num2 + " = " + ans);
+      System.out.printf(num1 + " " + op + num2 + " "+op + num3 + " = " + ans);
    }
 }
