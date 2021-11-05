@@ -23,7 +23,7 @@ public class Main{
          case '*': ans = num1 * num2 * num3;
             break;
          case '/': ans = num1 / num2 / num3;
-            break
+            break;
         default: System.out.printf("ΣΦΑΛΜΑ! ΕΙΣΑΓΕΤΕ ΣΩΣΤΟ ΤΕΛΕΣΤΗ");
          return;
       }
